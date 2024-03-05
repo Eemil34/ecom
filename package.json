@@ -1,0 +1,45 @@
+{
+  "name": "ecommerce-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.6.0",
+    "@tiptap/pm": "^2.1.11",
+    "@tiptap/react": "^2.1.11",
+    "@tiptap/starter-kit": "^2.1.11",
+    "axios": "^1.5.1",
+    "bcrypt": "^5.1.1",
+    "framer-motion": "^10.16.5",
+    "next": "latest",
+    "next-auth": "^4.23.1",
+    "next-cloudinary": "^4.28.0",
+    "react": "latest",
+    "react-color": "^2.19.3",
+    "react-dom": "latest",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.11.0",
+    "react-pick-color": "^2.0.0",
+    "react-rating-star-with-type": "^1.2.1",
+    "stripe": "^14.5.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-color": "^3.0.10",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "prisma": "^5.3.1",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  }
+}
